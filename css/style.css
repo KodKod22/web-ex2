@@ -243,3 +243,15 @@ h2 {
     left:0;
     width: 100%;
 }
+#current_page {
+    font-weight: 700;
+}
+.cotainer_Area1_page2 {
+    height: 300px;
+    width: 1200px;
+    display: flex;
+}
+.cotainer_Area1_page2 >  #place_img_holder {
+    border: 5px solid #E6DBFE;
+    margin-left: 32px;
+}
