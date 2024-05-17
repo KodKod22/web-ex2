@@ -246,12 +246,59 @@ h2 {
 #current_page {
     font-weight: 700;
 }
-.cotainer_Area1_page2 {
+#_Area1_page2 {
     height: 300px;
     width: 1200px;
+}
+.cotainer_img_holder {
+    display: flex;
+    margin-left: 32px;
+    gap: 32px;
+}
+#img_holder {
+    border: 5px solid #E6DBFE;
+    width: 300px; 
+    height:300px;
+}
+#middel_img {
+    width:388.29; 
+    height:300px;
+    border: 5px solid #E6DBFE;
+}
+#Area2_page2 {
+    height: 480px;
+}
+#Area2_page2 h2 {
+    font-family: Rubik;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 40px;
+    text-align: left;
+    margin-top: 32px;
+}
+.contener1 {
     display: flex;
 }
-.cotainer_Area1_page2 >  #place_img_holder {
-    border: 5px solid #E6DBFE;
+.circle {
+    height: 82px;
+    width: 82px;
+    background-color: #555;
+    border-radius: 50%;
+    margin-top: 32px;
     margin-left: 32px;
+    display: block;
+    background-image: url("../images/9021705_rocket_bold_icon.png");
+    background-size: 29px 42.38px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.contener1 > span {
+    margin-left: 16px;
+    padding-top: 63px;
+    font-family: Rubik;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+    
 }
