@@ -26,7 +26,7 @@ header {
     height: 64px;
     width: 64px;
     padding-top: 48px;
-    margin-left: 32px;
+    margin-left: 64px;
 }
 a{
     text-decoration: none;
@@ -138,7 +138,6 @@ a:hover {
     gap: 32px;
     padding-left: 32px;
     margin-top: 32px;
-    margin-bottom: 32px;
     
 }
 .Cards > section {
@@ -146,12 +145,10 @@ a:hover {
     height: 496px;
     border-radius: 25px;
     background-color: #EFECFF;
-    padding-bottom: 32px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin-bottom: 32px;
-    
 }
 .Cards > section > img {
     width: 376px;
@@ -254,9 +251,10 @@ a:hover {
 
 .footer_continer {
     height: 287px;
-    background-color:#fff2cc ;
+    background-color:#EFECFF ;
     display: flex;
     gap: 150px;
+    margin-left: 32px;
 }
 .footer_continer > div >  h2 {
     padding-bottom: 16px;
