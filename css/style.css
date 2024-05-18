@@ -12,7 +12,8 @@ header {
    height: 128px;   
 }
 #wrapper {
-    width: 1200px;
+    width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -149,7 +150,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding-bottom: 32px;
+    margin-bottom: 32px;
     
 }
 .Cards > section > img {
@@ -220,7 +221,7 @@ a:hover {
 
 #footer_list {
     margin-top: 20px;
-    margin-left: 32px;
+    margin-left: 64px;
     font-family: Nunito;
     font-size: 16px;
     font-weight: 400;
@@ -260,15 +261,13 @@ a:hover {
 .footer_continer > div >  h2 {
     padding-bottom: 16px;
     font-family: Nunito;
-    margin-left: 32px;
-    margin-top: 32px;
+    margin-left: 64px;
+    margin-top: 64px;
 }
 #footer{
-    position:fixed;
-    bottom:0;
-    left:0;
+    height: 287px;
     width: 100%;
-    margin-top: 32px;
+    padding-top: 32px;
 }
 #current_page {
     font-weight: 700;
@@ -279,7 +278,6 @@ a:hover {
 }
 .cotainer_img_holder {
     display: flex;
-    margin-left: 32px;
     gap: 31.71px;
 }
 #img_holder {
@@ -302,9 +300,10 @@ a:hover {
     line-height: 40px;
     text-align: left;
     margin-top: 32px;
-    margin-left: 32px;
     color: #612999;
-
+}
+#Area2_page2 ul {
+    list-style: none;
 }
 .contener1 {
     display: flex;
@@ -315,7 +314,6 @@ a:hover {
     background-color: #612999;
     border-radius: 50%;
     margin-top: 32px;
-    margin-left: 32px;
     display: block;
     background-image: url("../images/Group.png");
     background-size: 29px 42.38px;
@@ -340,12 +338,10 @@ a:hover {
     font-weight: 500;
     line-height: 40px;
     text-align: left;
-    margin-left: 32px;
     margin-top: 32px;
     color: #612999;
 
 }
 #Area3_page2 iframe {
     margin-top: 32px;
-    margin-left: 32px;
 }
