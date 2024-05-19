@@ -97,16 +97,7 @@ a:hover {
 #Area3 {
     height: 414px;
 }
-#Area3 h2 {
-    padding-top: 32px;
-    padding-left: 32px;
-    font-family: Rubik;
-    font-size: 40px;
-    font-weight: 500;
-    line-height: 40px;
-    text-align: left;
-    color: #612999;
-}
+
 #Area3 > p {
     width: 1136px;
     height: 85px;
@@ -116,13 +107,12 @@ a:hover {
     font-size: 20px;
     font-weight: 400;
     line-height: 28.13px;
-    text-align: justified;
 }
 #Area4 {
     height: 1656px;
     margin-bottom: 32px;    
 }
-#Area4 h2 {
+.section_headline {
     font-family: Rubik;
     font-size: 40px;
     font-weight: 500;
@@ -140,7 +130,7 @@ a:hover {
     margin-top: 32px;
     
 }
-.Cards > section {
+.Cards > div {
     width: 376px;
     height: 496px;
     border-radius: 25px;
@@ -149,7 +139,7 @@ a:hover {
     flex-direction: column;
     justify-content: space-between;
 }
-.Cards > section > img {
+.Cards > div > img {
     width: 376px;
     height: 276px;
     border-radius: 25px;
@@ -181,16 +171,15 @@ a:hover {
     background-color: #612999;
     border-radius: 50%;
 }
-.Cards > section > #car_name {
+.car_name {
     font-family: Abel;
     font-size: 30px;
     font-weight: 400;
     line-height: 38.23px;
-    text-align: justified;
     margin-left: 32px;
     color: #000000;      
 }
-.Cards > section > #car_dis {
+.car_dis {
     font-family: Abel;
     font-size: 18px;
     font-weight: 400;
@@ -198,10 +187,8 @@ a:hover {
     text-align: left;
     margin-left: 32px;
     color: #333333;
-
-
 }
-.Cards > section >#priceTag{
+.priceTag {
     width: 136px;
     height: 45px;
     margin-top: 9px;
@@ -212,11 +199,10 @@ a:hover {
     font-size: 30px;
     font-weight: 400;
     line-height: 44.6px;
-    text-align: justified;
     color: #612999;
 }
 
-#footer_list {
+.footer_list {
     margin-top: 16px;
     margin-left: 32px;
     font-family: Nunito;
@@ -230,7 +216,7 @@ a:hover {
     gap: 8px;
     
 }
-#footer_list a {
+.footer_list a {
     color: #000;
     cursor: pointer;
 }
@@ -241,7 +227,7 @@ a:hover {
     display: flex;
     gap: 20px; 
 }
-#sociel {
+.sociel {
     height: 20px;
     width: 20px;
     background-size: contain;
@@ -278,28 +264,18 @@ a:hover {
     gap: 31.71px;
     margin-left: 32px;
 }
-#img_holder {
+.img_holder {
     border: 5px solid #E6DBFE;
     width: 300px; 
     height:300px;
 }
 #middel_img {
-    width:388.29; 
+    width:388.29px; 
     height:300px;
     border: 5px solid #E6DBFE;
 }
 #Area2_page2 {
     height: 480px;
-}
-#Area2_page2 h2 {
-    font-family: Rubik;
-    font-size: 40px;
-    font-weight: 500;
-    line-height: 40px;
-    text-align: left;
-    margin-left: 32px;
-    margin-top: 32px;
-    color: #612999;
 }
 #Area2_page2 ul {
     list-style: none;
@@ -332,18 +308,14 @@ a:hover {
 #Area3_page2 {
     height: 805px;
 }
-#Area3_page2 h2 {
-    font-family: Rubik;
-    font-size: 40px;
-    font-weight: 500;
-    line-height: 40px;
-    text-align: left;
-    margin-left: 32px;
-    margin-top: 32px;
-    color: #612999;
-
+.youtube_continer {
+    position: relative;
+    width: 100%;
+    border: none;
 }
-#Area3_page2 iframe {
+
+.youtube_continer iframe {
     margin-top: 32px;
     margin-left: 32px;
+    position: absolute;
 }

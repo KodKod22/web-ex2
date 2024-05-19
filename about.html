@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,15 +29,15 @@
         </nav>
     </div>
     <main>
-        <section id="_Area1_page2">
-            <section class="cotainer_img_holder">
-                <img id="img_holder" src="images/mazda.png" alt="mazda" title="mazda" >
+        <div id="_Area1_page2">
+            <div class="cotainer_img_holder">
+                <img class="img_holder" src="images/mazda.png" alt="mazda" title="mazda" >
                 <img id="middel_img" src="images/mercdes.png" alt="Mercedes" title="Mercedes" >
-                <img id="img_holder" src="images/bwn.jpeg" alt="BMW" title="BMW">
-            </section>
-        </section>
+                <img class="img_holder" src="images/bwn.jpeg" alt="BMW" title="BMW">
+            </div>
+        </div>
         <section id="Area2_page2">
-            <h2>List of Vehicle</h2>
+            <h2 class="section_headline">List of Vehicle</h2>
             <ul>
                 <li>
                     <div class="contener1">
@@ -65,15 +66,18 @@
             </ul>
         </section>
         <section id="Area3_page2">
-            <h2>Video</h2>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/KIvC5wsoW2Y?si=D2xkhRmVIV21SMJY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <h2 class="section_headline">Video</h2>
+            <div class="youtube_continer">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/KIvC5wsoW2Y?si=D2xkhRmVIV21SMJY" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            
         </section>
     </main>
     <div id="footer" >
         <div class="footer_continer">
             <div>
                 <h2>Who we Are</h2>
-                <ul id="footer_list">
+                <ul class="footer_list">
                 <li>About</li>
                 <li>Team</li>
                 <li>Work With Us</li>
@@ -81,17 +85,17 @@
                     <ul id="list_socol">
                         <li> 
                             <a href="https://twitter.com/?lang=en" target="_blank">
-                            <img id="sociel" src="images/5305170_bird_social media_social network_tweet_twitter_icon.png" alt="twitter">
+                            <img class="sociel" src="images/twitter_icon.png" alt="twitter" title="twitter">
                             </a>
                         </li>
                         <li>
                             <a href="https://www.facebook.com/" target="_blank">
-                                <img id="sociel" src="images/353422_facebook_logo_icon.png" alt="facebook">
+                                <img class="sociel" src="images/facebook.png" alt="facebook" title="facebook">
                             </a>
                         </li>
                         <li>
                             <a href="https://www.instagram.com/" target="_blank">
-                                <img id="sociel" src="images/8679433_instagram_fill_icon.png" alt="instagram">
+                                <img class="sociel" src="images/instagram.png" alt="instagram" title="instagram">
                             </a>
                         </li>
                     </ul>
@@ -103,7 +107,7 @@
             </div>
             <div>
                 <h2>Follow us</h2>
-                <ul id="footer_list">
+                <ul class="footer_list">
                     <li>
                         <a href="https://twitter.com/?lang=en" target="_blank">
                         twitter</a></li>
